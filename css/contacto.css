@@ -1,0 +1,119 @@
+.contact-container {
+  width: 30%;
+  text-align: center;
+}
+
+.contact-container h3 {
+  text-align: left;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+.contact {
+  text-align: left;
+  margin: 80px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input {
+  margin-bottom: 25px;
+  padding: 8px 0 8px 10px;
+  border: 1px solid #B2B2B2;
+  border-radius: 1px;
+  outline: 0;
+}
+
+.contact-text {
+  height: 150px;
+  padding: 8px 0 0 10px;
+  border: 1px solid #B2B2B2;
+  border-radius: 1px;
+  outline: 0;
+}
+
+.submit-btn {
+  margin-top: 25px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: gray;
+  color: white;
+  border-radius: 1px;
+  height: 42px;
+}
+
+.submit-btn:hover {
+  background-color: #565656;
+}
+
+.submit-btn:focus {
+  outline: 0;
+}
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
+
+.mail {
+  display: inline;
+  margin-left: 20px;
+}
+
+.mail-container {
+  margin-top: 80px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+}
+
+.nombre,.email,.mensaje {
+  color: red;
+}
+
+.failure {
+  border: 1px solid red;
+}
+
+.success {
+  border: 1px solid green;
+}
+
+@media (min-width: 2000px) {
+  .footer {
+    position: fixed;
+  }
+}
+
+@media (max-width: 1440px) {
+  .contact-container {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .contact-container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-container {
+    width: 80%;
+  }
+
+  .contact-container h3 {
+    margin-top: 10px;
+  }
+
+  .contact {
+    margin: 50px 0 0 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .contact-container {
+    width: 90%;
+  }
+}
