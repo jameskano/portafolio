@@ -181,6 +181,10 @@ hr {
   .top:hover {
     transform: scale(0.88);
   }
+  
+  .card {
+    max-width: 700px;
+  }
 }
 
 @media (max-width: 991px) {
