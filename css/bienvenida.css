@@ -1,0 +1,109 @@
+html {
+  height: 100vh;
+  background-image: url("Everlasting Summer Girl.webp");
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.Everlasting Summer Girl.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Everlasting Summer Girl.jpg', sizingMethod='scale')";
+  opacity: 0.85;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+.main-title {
+  color: white;
+  margin-top: 15rem;
+}
+
+.enter {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.enter:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.8);;
+}
+
+.footer {
+  background-color: transparent;
+}
+
+.networking {
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.networking a {
+  color: white;
+  margin: 0 10px 0 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.networking a:hover {
+  color: rgb(0, 0, 0, 0.8);
+}
+
+.cr {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .main-title {
+    font-size: 2.2rem;
+  }
+
+  .enter {
+    font-size: 1.3rem;
+  }
+
+  .networking a {
+    transform: scale(0.80);
+  }
+
+  .cr {
+    font-size: 0.7rem;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 600px), (max-height: 600px) {
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .enter {
+    font-size: 1.1rem;
+  }
+
+  .networking a {
+    transform: scale(0.65);
+  }
+
+  .cr {
+    font-size: 0.6rem;
+    margin-top: 10px;
+  }
+}
